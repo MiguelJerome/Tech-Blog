@@ -1,5 +1,5 @@
-# E-commerce Back End
-![E-commerce Back End](./images/Screenshot%202022-08-27%20000442.png) 
+# Tech Blog
+![Tech Blog](./images/Screenshot%202022-08-27%20000442.png) 
 ## Table of Contents
 * [Project Title](#Project-Title)
 * [Description](#Description)
@@ -11,22 +11,23 @@
 * [Questions](#Questions)
 
 ## Description
-* This is a E-commerce Back End. You can create, read, update and delete some categories, tags, products. 
+* This is a Tech Blog. You can create, read, update and delete some categories, tags, products. 
 
 ## Installation instructions
 ![NPM-Package](./images/npm.png) 
-![Schema-Final](./images/Schema.png)
+![Schema-Final]()
 
 ## Usage Information
-* This E-commerce Back End is for personal and professional use.
+* This Tech Blog is for personal and professional use.
 
 ## Contribution Guidelines
 * This is a final product, that is ready to be use.
-* [E-commerce-Back-End-Page-Ressources](https://github.com/MiguelJerome/E-commerce-Back-End)
-* [Video-Usage-E-commerce-Back-End](https://livelacitecon-my.sharepoint.com/:v:/g/personal/2001326_collegelacite_ca/ETw9ZtHRQf1Co2mos4nIDA8BBsNQjEXtln1ppE9iLQELCw)
+* [Tech Blog-Page-Ressources Git Hub](https://github.com/MiguelJerome/Tech-Blog)
+* [Tech Blog-Page-Ressources Heroku](https://safe-brushlands-75061.herokuapp.com/)
+* [Video-Usage-Tech Blog]()
 
 ## Test Instructions
-* This E-commerce Back End works and is ready to be use.
+* This Tech Blog works and is ready to be use.
 
 ## License
 * MIT License
