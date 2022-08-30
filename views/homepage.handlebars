@@ -1,0 +1,10 @@
+<ol class="post-list">
+  {{#each posts as |post|}}
+  <li>
+    {{> post-info post }}
+    <div class = "post-info">
+      {{> comments post.comments}}
+    </div>
+  </li>
+  {{/each}}
+</ol>
