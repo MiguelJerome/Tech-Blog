@@ -14,7 +14,7 @@
 * This is a Tech Blog. You can create, read, update and delete some comment on a tech blog. 
 
 ## Installation instructions
-![NPM-Package](./images/npm.png) 
+![NPM-Package](./images/npm-package.png) 
 
 
 ## Usage Information
