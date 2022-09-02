@@ -21,60 +21,50 @@
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    <li>
-                        <a href="/dashboard">Dashboard</a>
-                    </li>
+  <li>
+<button type="button" id ="dashboard" class="dashboard">Dashboard</button>
+</li>
+                
                     <li>{{#if loggedIn}}
-                            
+                          
                             <button id="logout" class="btn-no-style">Logout</button>
                              
         {{else}}
-        <a href="/login">Login</a>
+        
+        <li>
+        <a href="/loginBack">Login</a>
+        </li>
         {{/if}}
                     </li>
-                    
-                     <li>
-                        <a href="/sign-up">sign-up</a>
-                    </li>
-                    
+
                     </div>
                 </ul>
             
         </nav>
         <div class ="name-lobby">
-        <h1><a href="/">The Tech Blog</a></h1>
+        <h1><a href="/" id ="head-title">The Tech Blog</a></h1>
         </div>
     </header>
-
-
-
-
-
-
-
-
 
     <main class = "home-main">
       {{{ body }}}
 <ol class="post-list">
   {{#each posts as |post|}}
+ 
   <li>
     {{> post-info post }}
   </li>
   {{/each}}
 </ol>
 
-
-
     </main>
-    <footer>
-      Thanks for visiting!
-    </footer>
+   
   </div>
   
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
   {{/if}}
 </body>
+<script src="/javascript/dashboard.js"></script>
 
 </html>

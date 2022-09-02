@@ -1,8 +1,5 @@
 {
-  "name": "blogtest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  
   "scripts": {
     "test": "jest",
     "start": "node server.js",

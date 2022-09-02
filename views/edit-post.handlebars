@@ -1,18 +1,17 @@
+<div class="edit-post-page">
 <article>
-  <a href="/dashboard"> &larr; Back to dashboard</a>
-  <h2>
+  
+  <div class ="edit-post">
     Edit Post
-  </h2>
+  </div>
   <form class="edit-post-form">
     Title
     <div>
-      <input name="post-title" type="text" value="{{post.title}}" />
+      <input name="post-title" class="post-title" type="text" value="{{post.title}}" />
       
     </div>
     <div>
-      Posted by you on {{format_date post.created_at}}
-      |
-      <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
+     
     </div>
     <button type="submit"class="save-post-btn" >Update Post</button>
     <button type="button" class="delete-post-btn">Delete</button>
@@ -23,14 +22,16 @@
   Content
   <div>
     <textarea name="comment-body"></textarea>
+    {{> comments post.comments}}
   </div>
 
-  <div>
-    <button type="submit">add comment</button>
+  <div class="button-new-post">
+    <button type="submit" class = "new-post-button">+ New Post</button>
   </div>
+  
 </form>
-
-{{> comments post.comments}}
+<a href="/dashboard"> &larr; Back to dashboard</a>
+</div>
 
 <script src="/javascript/edit-post.js"></script>
 <script src="/javascript/delete-post.js"></script>
