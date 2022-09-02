@@ -1,5 +1,5 @@
 # Tech Blog
-![Tech Blog](./images/Screenshot%202022-08-27%20000442.png) 
+![Tech Blog](./images/Screenshot%202022-09-02%20024634.png) 
 ## Table of Contents
 * [Project Title](#Project-Title)
 * [Description](#Description)
@@ -11,11 +11,11 @@
 * [Questions](#Questions)
 
 ## Description
-* This is a Tech Blog. You can create, read, update and delete some categories, tags, products. 
+* This is a Tech Blog. You can create, read, update and delete some comment on a tech blog. 
 
 ## Installation instructions
 ![NPM-Package](./images/npm.png) 
-![Schema-Final]()
+
 
 ## Usage Information
 * This Tech Blog is for personal and professional use.
@@ -24,7 +24,7 @@
 * This is a final product, that is ready to be use.
 * [Tech Blog-Page-Ressources Git Hub](https://github.com/MiguelJerome/Tech-Blog)
 * [Tech Blog-Page-Ressources Heroku](https://safe-brushlands-75061.herokuapp.com/)
-* [Video-Usage-Tech Blog]()
+
 
 ## Test Instructions
 * This Tech Blog works and is ready to be use.
