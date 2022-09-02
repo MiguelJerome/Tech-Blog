@@ -1,4 +1,8 @@
 {
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   
   "scripts": {
     "test": "jest",
@@ -6,10 +10,8 @@
     "watch": "nodemon server.js",
     "seeds": "node seeds/index.js"
   },
-
-
-
-
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.4",
